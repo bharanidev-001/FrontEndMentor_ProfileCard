@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+body {
+  background-image: url(images/bg-pattern-top.svg);
+  background-image: url(images/bg-pattern-bottom.svg);
+  background-position: right 350px;
+}
+
+.content {
+  width: fit-content;
+  margin: 10% auto;
+  background-color: white;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.inner {
+  padding: 20px;
+}
+
+#card {
+  border-radius: 12px 12px 0px 0px;
+  width: 100%;
+}
+
+#victor-profile {
+  border-radius: 100px;
+  position: relative;
+  bottom: 70px;
+  border: 8px solid white;
+  margin-bottom: -50px;
+}
+
+h1 {
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+span {
+  color: hsl(0, 2%, 53%);
+  font-size: 2rem;
+}
+
+p {
+  color: hsl(0, 2%, 53%);
+  font: 1.2rem;
+  font-weight: 500;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+.info {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 300px) and (max-width: 650px) {
+  .content {
+    margin: 28% auto;
+  }
+}
